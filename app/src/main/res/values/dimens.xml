@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="google_map_padding_left">10dp</dimen>
+    <dimen name="google_map_padding_top">10dp</dimen>
+    <dimen name="google_map_padding_right">10dp</dimen>
+    <dimen name="google_map_padding_bottom">10dp</dimen>
+    <dimen name="google_map_marker_size">32dp</dimen>
+    <dimen name="google_map_zoom_button_size">40dp</dimen>
+</resources>
