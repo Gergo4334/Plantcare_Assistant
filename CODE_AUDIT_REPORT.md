@@ -1,7 +1,7 @@
 # Comprehensive Code Audit Report
 ## Plantcare Assistant Android Application
 
-**Date:** December 7, 2025  
+**Date:** December 7, 2024  
 **Auditor:** GitHub Copilot Coding Agent  
 **Scope:** Full repository audit covering security, code quality, performance, and maintainability
 
@@ -951,7 +951,7 @@ This comprehensive code audit evaluates the Plantcare Assistant Android applicat
   ```kotlin
   suspend fun getAllPlants(
       @Query("page") page: Int,
-      @Query("per-page") perPage: Int, // Fixed typo
+      @Query("per-page") perPage: Int, // Corrected parameter name
       @Query("key") apiKey: String = ApiAccessKey
   ): Response<PlantResponse>
   ```
